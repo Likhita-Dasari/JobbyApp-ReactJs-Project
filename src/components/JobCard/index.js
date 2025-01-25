@@ -18,33 +18,33 @@ const JobCard = props => {
   const path = `/jobs/${id}`
   //console.log(id);
   return (
-    <li className='jobcard-container'>
-      <Link to={path} className='job-link'>
-        <div className='company-profile'>
+    <li className="jobcard-container">
+      <Link to={path} className="job-link">
+        <div className="company-profile">
           <img
-            className='company-logo'
+            className="company-logo"
             src={companyLogoUrl}
-            alt='company logo'
+            alt="company logo"
           />
           <div>
-            <h1 className='jobcard-title'>{title}</h1>
-            <div className='company-profile'>
-              <FaRegStar className='rating-star' color='#fbbf24' />
+            <h1 className="jobcard-title">{title}</h1>
+            <div className="company-profile">
+              <FaRegStar className="rating-star" color="#fbbf24" />
               <p>{rating} </p>
             </div>
           </div>
         </div>
-        <div className='logos-flex'>
-          <div className='company-profile'>
-            <div className='company-profile'>
-              <FaLocationArrow className='react-icons' color='#ffffff' />
+        <div className="logos-flex">
+          <div className="company-profile">
+            <div className="company-profile">
+              <FaLocationArrow className="react-icons" color="#ffffff" />
               <p>{location}</p>
             </div>
-            <div className='company-profile'>
+            <div className="company-profile">
               <FaShoppingBag
-                className='react-icons'
-                color='#ffffff'
-                height='20'
+                className="react-icons"
+                color="#ffffff"
+                height="20"
               />
               <p>{employmentType}</p>
             </div>
@@ -52,7 +52,7 @@ const JobCard = props => {
           <p>{packagePerAnnum}</p>
         </div>
         <hr />
-        <h1 className='jobcard-title'>Description</h1>
+        <h1 className="jobcard-title">Description</h1>
         <p>{jobDescription}</p>
       </Link>
     </li>
