@@ -1,0 +1,48 @@
+.job-card-details {
+  background-color: #000000;
+  color: #ffffff;
+}
+.job-card-skills-list {
+  list-style-type: none;
+  display: flex;
+  margin-right: 50px;
+}
+.job-card-skills-image {
+  height: 30px;
+  margin-right: 5px;
+  margin-top: 10px;
+}
+.job-card-skills {
+  display: flex;
+  flex-wrap: wrap;
+}
+.job-card-skills1 {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+}
+
+.job-card-details-comapany-image {
+  height: 150px;
+  width: 250px;
+  border-radius: 4px;
+}
+.job-card-failure-view {
+  height: 100vh;
+  background-color: #000000;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.job-card-failure-view-button {
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #4f46e5;
+  color: #ffffff;
+  border-color: transparent;
+}
+.rating-star {
+  margin-top: 18px;
+}

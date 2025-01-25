@@ -1,0 +1,36 @@
+.navbar-header {
+  height: 80px;
+  background-color: #272727;
+}
+.navbar-content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 5px;
+}
+
+.navbar-website-logo {
+  height: 50px;
+  width: 100px;
+}
+
+.navbar-menu {
+  display: flex;
+  justify-content: space-between;
+}
+.navbar-menu-item {
+  list-style-type: none;
+  color: #ffffff;
+  font-family: 'Roboto';
+  margin: 5px;
+  text-decoration: none;
+}
+.navbar-logout-button {
+  height: 50px;
+  width: 80px;
+  background-color: #4f46e5;
+  text-align: center;
+  border-radius: 5px;
+  color: #ffffff;
+  border-color: transparent;
+}
