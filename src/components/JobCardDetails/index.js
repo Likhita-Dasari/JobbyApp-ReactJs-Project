@@ -6,6 +6,7 @@ import Cookies from 'js-cookie'
 import Header from '../Header'
 
 import './index.css'
+//JobCard Details
 
 const apiStatusConstants = {
   initial: 'INITIAL',
