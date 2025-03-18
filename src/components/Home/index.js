@@ -3,7 +3,7 @@ import Header from '../Header'
 import './index.css'
 
 import {Link} from 'react-router-dom'
-
+//Home Section
 const Home = props => {
   const onClickFindJobs = () => {
     const {history} = props
