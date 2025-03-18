@@ -1,5 +1,6 @@
 import './index.css'
 
+//checkbox Function
 const Checkbox = props => {
   const {jobType, checkValue, updateCheckboxList} = props
   const {label, employmentTypeId} = jobType
