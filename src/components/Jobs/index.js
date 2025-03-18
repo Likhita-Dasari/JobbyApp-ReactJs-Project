@@ -14,7 +14,7 @@ import Radiobox from '../Radiobox'
 import JobCard from '../JobCard'
 
 import './index.css'
-
+//Jobs section
 const employmentTypesList = [
   {
     label: 'Full Time',
